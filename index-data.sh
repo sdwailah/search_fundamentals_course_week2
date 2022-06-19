@@ -44,6 +44,7 @@ if [ $? -ne 0 ] ; then
 fi
 
 cd $PYTHON_LOC
+echo $PYTHON_LOC
 echo ""
 if [ -f index_products.py ]; then
   echo "Indexing product data in $DATASETS_DIR/product_data/products and writing logs to $LOGS_DIR/index_products.log"
